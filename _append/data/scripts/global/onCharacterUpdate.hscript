@@ -1,0 +1,9 @@
+if (self.healthBar != null)
+{
+    self.healthBar.setGraphics("mods/Chechecheaters_Interface/images/ui/hud/healthBarBorder.png", "mods/Chechecheaters_Interface/images/ui/hud/healthBarFilling.png", 4, 2);
+    if (self.localPlayerController != null)
+    {
+        self.healthBar.x = 76;
+        self.healthBar.y = 228;
+    }
+}
